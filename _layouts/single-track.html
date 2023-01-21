@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script type="module" src="./single-track.js"></script>
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <article class="prose">
+        <h1>{{ page.title }}</h1>
+    </article>
+    <div id="wavesurfer" class="w-screen">
+        <audio src="{{ page.media }}"></audio>
+    </div>
+    <article class="prose">
+
+{{content}}
+
+    </article>
+</body>
+</html>
