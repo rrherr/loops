@@ -19,14 +19,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   // Load audio
   let audio = document.querySelector("audio");
-  let parent = audio.parentNode;
-  let container = document.createElement("div");
-  container.classList.add("not-prose");
-  container.classList.add("w-screen");
+  let container = document.querySelector("#wavesurfer");
   wavesurfer.load(audio);
   container.appendChild(waveform);
   container.appendChild(timeline);
-  parent.insertBefore(container, audio);
 
   // Play / Pause
   let button = document.createElement("button");
