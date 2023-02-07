@@ -58,6 +58,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
     container.appendChild(timeline);
     container.appendChild(button);
   });
+  
+  // Add links to loops
+  let re = /^.*#([0-9]*[.]?[0-9]*),([0-9]*[.]?[0-9]*)$/;
+  let sub = "javascript:loop($1, $2)";
+  document.querySelectorAll("a").forEach(a => {
+    if (re.test(a.href)) {
+      a.setAttribute("href", a.href.replace(re, sub));
+    }
+  });
 
 });
 
