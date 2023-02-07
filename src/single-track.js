@@ -21,13 +21,18 @@ window.addEventListener('DOMContentLoaded', (event) => {
   let audio = document.querySelector("audio");
   let container = document.querySelector("#wavesurfer");
   wavesurfer.load(audio);
-
+  container.appendChild(waveform);
+  container.appendChild(timeline);
+  
   // Play / Pause
   let button = document.createElement("button");
   button.className = "wavesurfer-button";
   button.innerHTML = "Play / Pause";
   button.addEventListener("click", () => {
     wavesurfer.playPause();
+  });
+  wavesurfer.on("ready", function() {
+    container.appendChild(button);
   });
   
   // Loops
@@ -51,13 +56,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     wavesurfer.clearRegions();
   });
 
-  // Append to document
-  wavesurfer.on("ready", function() {
-    container.appendChild(waveform);
-    container.appendChild(timeline);
-    container.appendChild(button);
-  });
-  
   // Add links to loops
   let re = /^.*#([0-9]*[.]?[0-9]*),([0-9]*[.]?[0-9]*)$/;
   let sub = "javascript:loop($1, $2)";
