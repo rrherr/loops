@@ -21,8 +21,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
   let audio = document.querySelector("audio");
   let container = document.querySelector("#wavesurfer");
   wavesurfer.load(audio);
-  container.appendChild(waveform);
-  container.appendChild(timeline);
 
   // Play / Pause
   let button = document.createElement("button");
@@ -54,7 +52,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
   });
 
   // Append to document
-  wavesurfer.on('ready', function() {
+  wavesurfer.on("ready", function() {
+    container.appendChild(waveform);
     container.appendChild(timeline);
     container.appendChild(button);
   });
