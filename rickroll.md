@@ -4,4 +4,4 @@ media: https://archive.org/download/Sz39_39/rick-astley-never-gonna-give-you-up-
 layout: single-track
 ---
 
-- [1st chorus](javascript:loop(42.9, 51.4))
+- [1st chorus](#42.9,51.4)
