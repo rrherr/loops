@@ -119,7 +119,7 @@ playlist.load([
             setTimeout(function() {
                 ee.emit("rewind");
                 ee.emit("play", start);
-            }, 50);
+            }, 200);
         }
         startTime = start;
         endTime = end;
@@ -166,7 +166,7 @@ window.loop = function (start, end) {
     setTimeout(function() {
       ee.emit("select", start, end);
       playoutPromises = playlist.play(start, end);
-    }, 50);
+    }, 200);
   } else {
     ee.emit("select", start, end);
   }
