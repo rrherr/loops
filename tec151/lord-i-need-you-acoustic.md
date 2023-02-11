@@ -10,6 +10,8 @@ This is the [YouTube acoustic version](https://www.youtube.com/watch?v=iaVPupbNF
 - [Chorus 2](#105.601,131.667)
 - [Chorus 3](#168.94,194.80)
 
+## Capo 3
+
 ```
         G         C     G    D
 Lord, I need You, oh, I need You
