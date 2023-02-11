@@ -1,7 +1,7 @@
 ---
 title: Word of God — Brenton Brown
 media: https://cors-anywhere.herokuapp.com/https://drive.google.com/uc?export=download&id=1-3wnCq0seJ5Ac1nOwgv3tec5ydr31RjM
-layout: waveform-playlist
+layout: wavesurfer-basic
 ---
 
 [Verse 1](#9.25,38.51)
