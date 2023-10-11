@@ -1,7 +1,3 @@
 # loops
 
-https://jekyllrb.com/docs/
-
-```
-bundle exec jekyll serve --livereload
-```
+Use [pipx](https://pypa.github.io/pipx/) to install [jupyter-book](https://jupyterbook.org/en/stable/start/overview.html).
