@@ -4,6 +4,7 @@
 format: jb-book
 root: index
 chapters:
+- file: loops/little_maggie/billy_strings
 - file: loops/bye_bye_birdie/an_english_teacher
 - file: loops/wayfaring_stranger/ed_sheeran
 - file: loops/noah_kahan/maine
