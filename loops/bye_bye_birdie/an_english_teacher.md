@@ -1,4 +1,4 @@
-# Bye Bye Birdie - An English Teacher
+# Bye Bye Birdie — An English Teacher
 
 <div id="yt"></div>
 
