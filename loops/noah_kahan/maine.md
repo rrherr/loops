@@ -65,7 +65,8 @@ Just the lack of an open mouth
 
 Bad, I'll miss this place, your head and your heart  
 And my dad still tells me when they're playing your songs  
-Laughing at the way that you would say  
+Laughing at the way 
+That you would say  
 "If only, baby, there were cameras in the traffic lights  
 They'd make me a star  
 They'd make me a star"  
