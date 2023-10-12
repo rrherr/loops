@@ -67,7 +67,7 @@ The English teacher's wife!
 
 _"Oh Rosie, I told you, as soon as I get a few bucks ahead..."_  
 
-You said it before, Albert!  
+You said that before, Albert!  
 And along came Conrad Birdie  
 And it was goodbye, Geoffrey Chaucer  
 Hello, William Morris  
