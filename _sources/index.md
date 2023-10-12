@@ -22,4 +22,4 @@ Welcome to the Herr family songbook!
 <h3>You can change the speed & pitch too</h3>
 
 - To change the speed, use the ⚙️ icon at the bottom of the YouTube player.
-- To transpose the pitch, you can install the [Transpose browser extension](https://transpose.video/extension/). This only works from Chrome — not iPhone.
+- To transpose the pitch, you can install [this Chrome browser extension](https://transpose.video/extension/). This only works on desktop — not mobile.
