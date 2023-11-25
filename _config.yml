@@ -10,3 +10,6 @@ sphinx:
     html_theme_options:
       use_fullscreen_button: false
       use_download_button: false
+
+parse:
+   myst_url_schemes: [mailto, http, https, t]

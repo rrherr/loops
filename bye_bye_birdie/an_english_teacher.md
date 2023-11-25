@@ -1,20 +1,10 @@
 # Bye Bye Birdie — An English Teacher
 
-<div id="yt"></div>
+<yt-player id="tSrhEFDX3Fw"></yt-player>
 
-<div><strong>
-<input type="radio" name="loop" id="loop0" value="0,Infinity" checked />
-<label for="loop0">(Full Video)</label>
-</strong></div>
+[(Full Video)](t:0,Infinity)
 
-<br/>
-
-
-<div><strong>
-<input type="radio" name="loop" id="loop1" value="152.09,195.78" />
-<label for="loop1">Part 1</label>
-</strong></div>
-
+[Part 1](t:152.09,195.78)
 His going in the Army  
 Is the best thing he could do  
 Now you're free to start to do  
@@ -39,11 +29,7 @@ You were going to NYU
 And become, an English teacher!  
 
 
-<div><strong>
-<input type="radio" name="loop" id="loop3" value="296.216658,362.206658" />
-<label for="loop3">Part 2</label>
-</strong></div>
-
+[Part 2](t:296.216658,362.206658)
 An English teacher, an English teacher  
 If only you'd been an English teacher  
 We'd have a little apartment in Queens  
@@ -60,11 +46,7 @@ Mrs. Phi Beta Kappa Peterson
 The English teacher's wife!  
 
 
-<div><strong>
-<input type="radio" name="loop" id="loop5" value="402.11,453.32" />
-<label for="loop5">Part 3</label>
-</strong></div>
-
+[Part 3](t:402.11,453.32)
 _"Oh Rosie, I told you, as soon as I get a few bucks ahead..."_  
 
 You said that before, Albert!  
@@ -80,11 +62,7 @@ You were through, with English
 Forever  
 
 
-<div><strong>
-<input type="radio" name="loop" id="loop6" value="483.290292,523.930291" />
-<label for="loop6">Part 4</label>
-</strong></div>
-
+[Part 4](t:483.290292,523.930291)
 An English teacher is really someone  
 How proud I'd be if you had become one  
 It could have been such a wonderful life  
@@ -94,28 +72,8 @@ Mrs. Phi Beta Kappa Peterson
 The English teacher's wife!  
 
 
-<div><strong>
-<input type="radio" name="loop" id="loop2" value="159.718933,165.408933" />
-<label for="loop2">Albert, Albert, A - - Albert!</label>
-</strong></div>
+[Albert, Albert, A - - Albert!](t:159.718933,165.408933)
 
-<br/>
+[An English teacher, an English teacher, if only you'd been an English teacher](t:296.1,309.245353)
 
-<div><strong>
-<input type="radio" name="loop" id="loop4" value="296.1,309.245353" />
-<label for="loop4">An English teacher, an English teacher, if only you'd been an English teacher</label>
-</strong></div>
-
-<br/>
-
-<div><strong>
-<input type="radio" name="loop" id="loop7" value="488.728809,501.848809" />
-<label for="loop7">An English teacher is really someone, how proud I'd be if you had become one</label>
-</strong></div>
-
-<br/>
-
-<script type="module">
-import YTPlayer from "https://cdn.skypack.dev/yt-player@3.6.1";
-load(YTPlayer, "tSrhEFDX3Fw");
-</script>
+[An English teacher is really someone, how proud I'd be if you had become one](t:488.728809,501.848809)
