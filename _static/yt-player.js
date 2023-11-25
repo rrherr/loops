@@ -9,6 +9,7 @@
                 super();
                 const videoId = this.getAttribute("id");
                 const div = document.createElement("div");
+                div.setAttribute("style", "aspect-ratio: 16 / 9; width: 100%;");
                 this.player = new YTPlayer(div, { timeupdateFrequency: 30 });
                 this.player.load(videoId);
                 this.appendChild(div);

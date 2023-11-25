@@ -5,7 +5,6 @@ format: jb-book
 root: index
 chapters:
 - file: little_maggie/billy_strings
-- file: bye_bye_birdie/an_english_teacher
 - file: wayfaring_stranger/ed_sheeran
 - file: noah_kahan/maine
 - file: noah_kahan/sarahs_place
